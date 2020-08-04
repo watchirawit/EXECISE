@@ -7,12 +7,12 @@ subtract = first_number - second_number
 multiply = first_number * second_number
 divide = first_number / second_number
 if select == 1:
-    print(add)
+    print(first_number,'+',second_number,"=",add)
 elif select == 2:
-    print(subtract)
+    print(first_number,"-",second_number,"=",subtract)
 elif select == 3:
-    print(multiply)
+    print(first_number,'*',second_number,"=",multiply)
 elif select == 4:
-    print(divide)
+    print(first_number,"/",second_number,"=",divide)
 else:
     print("Please select a new option.")
