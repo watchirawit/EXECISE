@@ -1,3 +1,4 @@
+import time
 print("Please select operation -\n1.add\n2.subtract\n3.Multiply\n4.Divide")
 select = int(input("select operations form 1,2,3,4 : "))
 first_number = int(input("Enter first number : "))
@@ -16,3 +17,5 @@ elif select == 4:
     print(divide)
 else:
     print("Please select a new option.")
+boss = time.time()
+print((time.time()-boss)*1000)
