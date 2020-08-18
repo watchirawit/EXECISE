@@ -1,17 +1,8 @@
-i = 0
-while i == 0:
-    num = int(input('gfgfgfgf'))
-    print(num*2.5)
-    ghhgh = str(input('dfdfdfdfdf'))
-    for text in ghhgh:
-        if text == "y":
-            continue
-        
-
-
+keep_going = 'y' 
+while keep_going == 'y' or keep_going == "Y":
+    wholesale = float(input("Enter the item's wholesale cost: "))
     
-
-   
-
-    
-
+    print('retail price: $' , \
+        format(wholesale*2.5,',.2f'), sep='')
+    keep_going = input('do you have another item? (Enter y for yes):')
+             
