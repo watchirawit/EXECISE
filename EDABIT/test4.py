@@ -7,7 +7,6 @@ for column in range(columns):
             print('*',end='')
     print('')
 
-
    
     
     
